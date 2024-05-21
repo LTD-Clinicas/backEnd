@@ -157,7 +157,8 @@ public class UsuarioControler {
     			usuario.getTipoUsuario().getNome(),
     			usuario.getNomeCompleto(), 
     			usuario.getTelefone(), 
-    			usuario.getDataNascimento());
+    			usuario.getDataNascimento(),
+    			usuario.getCpf());
     	return new ResponseEntity<>(retorno, HttpStatus.OK);
     }
     
